@@ -1,0 +1,17 @@
+#form3Example{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    box-shadow: none !important; 
+    border: 1px solid;
+}
+
+.btnR{
+    margin-top: 10%;
+    border-radius: 8px;
+    border: 1px solid;
+    width: 70%;
+    height: 40px;
+    color: #fff;
+    background-color: #7a6ad8;
+}

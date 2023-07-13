@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-lg-12 col-xl-11">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+          <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4" style="color: #7a6ad8;">Add Products</p>
+            <form class="mx-1 mx-md-4" #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)">
+              <p style="margin-left:24%; color: green;"> {{addProductMessage}} </p>
+              <input type="text" id="form3Example" class="form-control" placeholder="Enter Product Name" ngModel name="name"/>
+                      
+              <input type="text" id="form3Example" class="form-control" placeholder="Enter Product Price" ngModel name="price"/>
+         
+              <input type="text" id="form3Example" class="form-control" placeholder="Enter Product Color" ngModel name="color"/>
+                      
+              <input type="text" id="form3Example" class="form-control" placeholder="Enter Category" ngModel name="cetegory"/>
+                    
+              <textarea
+                class="form-outline"input type="text" id="form3Example" class="form-control" placeholder="Enter Product Description" ngModel name="description">
+              </textarea>
+      
+              <input type="text" id="form3Example" class="form-control" placeholder="Enter Product image URl" ngModel name="images"/>
+                    
+              <div class="d-flex justify-content-center">
+                <button type="submit" class="btnR">Add Product</button>
+              </div>
+
+            </form>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>

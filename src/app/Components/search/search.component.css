@@ -1,0 +1,14 @@
+.search-item{
+    border-top: 1px solid #ddd;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.product-item img{
+    margin-top: 5%;
+    width: 90%;
+    height: 200px;
+    cursor: pointer;
+}
+

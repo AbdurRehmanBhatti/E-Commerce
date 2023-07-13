@@ -1,0 +1,59 @@
+{
+  "seller": [
+    {
+      "name": "Abdur Rehman",
+      "email": "11109@students.riphah.edu.pk",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Tashi",
+      "email": "tashi@test.com",
+      "password": "111111",
+      "id": 2
+    },
+    {
+      "email": "abc@abc.com",
+      "password": "123",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "iPhone",
+      "price": "100000",
+      "color": "Gold",
+      "cetegory": "Mobile",
+      "description": "Pricey",
+      "images": "https://i.insider.com/6353035c390dfe00196d7f2d?width=1200&format=jpeg",
+      "id": 1
+    },
+    {
+      "name": "Samsung s23",
+      "price": "120000",
+      "color": "Black",
+      "cetegory": "Mobile",
+      "description": "Smart",
+      "images": "https://image-us.samsung.com/us/smartphones/galaxy-s23/images/gallery/phantom-black/01-DM1-PhantomBlack-PDP-1600x1200.jpg?$product-details-jpg$",
+      "id": 2
+    },
+    {
+      "name": "Redmi",
+      "price": "80000",
+      "color": "Black",
+      "cetegory": "Mobile",
+      "description": "China Ka Maal",
+      "images": "https://cdn.vox-cdn.com/thumbor/6A8lT231wLAlouRQtGgSNMFyfUM=/0x0:770x513/1400x1400/filters:focal(385x257:386x258)/cdn.vox-cdn.com/uploads/chorus_asset/file/23196006/Redmi_Note_11_Series_01.jpg",
+      "id": 3
+    },
+    {
+      "name": "Dell Laptop",
+      "price": "70000",
+      "color": "Black",
+      "cetegory": "Laptop",
+      "description": "Slim",
+      "images": "https://i.dell.com/sites/imagecontent/products/PublishingImages/precision-15-5520-laptop/workstation-precision-5520-pdp-module-4.jpg",
+      "id": 4
+    }
+  ]
+}
